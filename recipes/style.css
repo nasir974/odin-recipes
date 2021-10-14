@@ -41,7 +41,7 @@ body{
 .cards-container{
 display: flex;
 padding:1em;
-margin: 2em 11em auto 10em;
+margin: 2em 5em auto 5em;
 }
 img{
     width: 50%;
@@ -52,10 +52,10 @@ img{
 
 
 
-}
+
 .card-1, .card-2, .card-3 {
     padding:0.5em;
-    margin: 2em 1em auto 0;
+    margin: 2em 1em auto 1em;
    transition: 0.2s;
   
 }
