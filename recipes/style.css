@@ -1,3 +1,83 @@
 body{
-    background-color: wheat;
+    
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(212, 199, 123);
+   
+}
+.container{
+    display: flex;
+    margin: 4em;
+}
+
+
+.link-1, .link-2, .link-3{
+    text-decoration: none;
+}
+.home-img{
+    height: auto;
+    width: 100%;
+    margin-right: 6em;
+    border-radius: 1em;
+}
+ img{
+    height:auto;
+    width: 350px;
+    display: block;
+   border-top-right-radius: 0.5em;
+   border-top-left-radius: 0.5em;
+  
+}
+.header{
+    width: 50%;
+    margin-left: 6em;
+    font-size: 2em;
+}
+.cards-container{
+display: flex;
+padding:1em;
+margin: 2em 11em auto 10em;
+
+
+
+
+
+
+}
+.card-1, .card-2, .card-3 {
+    padding:0.5em;
+    margin: 2em 8em auto 0;
+   transition: 0.2s;
+  
+}
+.card-1:hover{
+    box-shadow: 0 3px 10px rgb(46, 53, 52);
+}
+.card-2:hover{
+    box-shadow: 0 3px 10px rgb(46, 53, 52);
+}
+.card-3:hover{
+    box-shadow: 0 3px 10px rgb(46, 53, 52);
+}
+ a:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  
+    
+}
+
+.card-content{
+    border:solid 0.1em;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    padding: 1em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h3{
+    font-size:2em;
+}
+p{
+    font-size:1.5em;
 }
