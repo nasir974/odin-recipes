@@ -6,7 +6,8 @@ body{
 }
 .container{
     display: flex;
-    margin: 4em;
+    margin: 1em;
+    align-items:center;
 }
 
 
@@ -15,28 +16,37 @@ body{
 }
 .home-img{
     height: auto;
-    width: 100%;
-    margin-right: 6em;
+    width: 70%;
+    margin-right: 1em;
     border-radius: 1em;
 }
- img{
+.img-container{
+    margin: 0;
+    padding: 0;
+}
+ a img{
     height:auto;
-    width: 350px;
-    display: block;
+    width: 100%;
+    display: flex;
    border-top-right-radius: 0.5em;
    border-top-left-radius: 0.5em;
   
 }
 .header{
     width: 50%;
-    margin-left: 6em;
-    font-size: 2em;
+    margin:0;
+    font-size: 1.2em;
+    padding: 2em;
 }
 .cards-container{
 display: flex;
 padding:1em;
 margin: 2em 11em auto 10em;
-
+}
+img{
+    width: 50%;
+    
+}
 
 
 
@@ -45,7 +55,7 @@ margin: 2em 11em auto 10em;
 }
 .card-1, .card-2, .card-3 {
     padding:0.5em;
-    margin: 2em 8em auto 0;
+    margin: 2em 1em auto 0;
    transition: 0.2s;
   
 }
@@ -76,8 +86,8 @@ a{
     color: inherit;
 }
 h3{
-    font-size:2em;
+    font-size:1.5em;
 }
 p{
-    font-size:1.5em;
+    font-size:1em;
 }
