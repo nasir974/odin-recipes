@@ -7,7 +7,7 @@ body{
 .container{
     display: flex;
     margin: 1em;
-    align-items:center;
+    align-items:flex-start;
 }
 
 
@@ -20,10 +20,7 @@ body{
     margin-right: 1em;
     border-radius: 1em;
 }
-.img-container{
-    margin: 0;
-    padding: 0;
-}
+
  a img{
     height:auto;
     width: 100%;
@@ -32,16 +29,19 @@ body{
    border-top-left-radius: 0.5em;
   
 }
-.header{
-    width: 50%;
-    margin:0;
+.img-home-content{
+    padding: 1em;
     font-size: 1.2em;
-    padding: 2em;
+   flex:1;
 }
 .cards-container{
 display: flex;
 padding:1em;
-margin: 2em 5em auto 5em;
+margin: 2em 5em 2em 5em;
+justify-content: center;
+align-items: center;
+
+gap: 1em;
 }
 img{
     width: 50%;
@@ -49,14 +49,17 @@ img{
 }
 
 
-
+.link-1, .link-2, .link-3{
+    flex:1;
+}
 
 
 
 .card-1, .card-2, .card-3 {
     padding:0.5em;
-    margin: 2em 1em auto 1em;
+   
    transition: 0.2s;
+   
   
 }
 .card-1:hover{
@@ -90,4 +93,9 @@ h3{
 }
 p{
     font-size:1em;
+}
+
+#bbqchicken, #pancakes, #pizza{
+    text-align: center;
+  
 }
