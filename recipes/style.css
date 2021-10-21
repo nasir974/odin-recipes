@@ -11,14 +11,16 @@ body{
 }
 
 
-.link-1, .link-2, .link-3{
-    text-decoration: none;
-}
+
 .home-img{
-    height: auto;
-    width: 70%;
+    max-width: 300px;
     margin-right: 1em;
     border-radius: 1em;
+}
+.img-home-content{
+    padding: 1em;
+    font-size: 1.2em;
+   flex:1;
 }
 
  a img{
@@ -29,11 +31,7 @@ body{
    border-top-left-radius: 0.5em;
   
 }
-.img-home-content{
-    padding: 1em;
-    font-size: 1.2em;
-   flex:1;
-}
+
 .cards-container{
 display: flex;
 padding:1em;
@@ -43,14 +41,12 @@ align-items: center;
 
 gap: 1em;
 }
-img{
-    width: 50%;
-    
-}
+
 
 
 .link-1, .link-2, .link-3{
     flex:1;
+    text-decoration: none;
 }
 
 
