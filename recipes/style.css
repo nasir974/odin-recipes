@@ -7,21 +7,25 @@ body{
 .container{
     display: flex;
     margin: 1em;
-    align-items:flex-start;
+
 }
-
-
+.home-content{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    text-align: left;
+    padding: 3em;
+}
 
 .home-img{
-    max-width: 300px;
+    display: flex;
     margin-right: 1em;
     border-radius: 1em;
+    width: 60%;
 }
-.img-home-content{
-    padding: 1em;
-    font-size: 1.2em;
-   flex:1;
-}
+
 
  a img{
     height:auto;
